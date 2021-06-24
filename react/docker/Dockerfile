@@ -11,6 +11,7 @@ ENV PATH /node_modules/.bin:$PATH
 COPY app/package.json ./
 COPY app/yarn.lock ./
 RUN yarn install --silent --modules-folder ../node_modules
+RUN yarn add typescript -g
 RUN yarn global add react-scripts@3.4.1 --silent
 
 # add app
