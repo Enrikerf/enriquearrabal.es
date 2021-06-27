@@ -11,3 +11,7 @@ and the references between files can't be handled.
 * research to change entry point on expo pending: 
   * [thread](https://stackoverflow.com/questions/47742280/how-to-define-entry-point-for-react-native-app)
   * [thread](https://blog.expo.io/building-a-react-native-app-using-expo-and-typescript-part-1-a81b6970bb82)
+  
+
+
+* nested style sheet
