@@ -10,5 +10,7 @@ services:
       - './app:/app'
     ports:
       - 3001:3000
+      - 19000:19000
+      - 19006:19006
     environment:
       - CHOKIDAR_USEPOLLING=true
