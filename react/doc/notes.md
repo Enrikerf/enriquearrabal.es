@@ -1,7 +1,7 @@
 to run interactive 
 
-docker run -it -v /Users/enrikerf/workspace/enriquearrabal.es/react/app:/app react_web sh
-docker run -it -v /home/kerf/workspace/enriquearrabal.es/react:/app react_web sh
+docker run -it -v /Users/enrikerf/workspace/enriquearrabal.es/react/app:/app -p 19006:19006 react_web sh
+docker run -it -v /home/kerf/workspace/enriquearrabal.es/react/app:/app -p 19006:19006 react_web sh
 
 
 #RUN yarn install --silent --modules-folder ../node_modules # for prod
